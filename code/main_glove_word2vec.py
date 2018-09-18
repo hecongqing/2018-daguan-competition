@@ -70,8 +70,6 @@ if not os.path.exists("../submission"):
 
 
 
-
-from util import *
 from TextModel import *
 os.environ["CUDA_VISIBLE_DEVICES"] = args.gpu
 
