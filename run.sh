@@ -7,6 +7,7 @@ fi
 
 
 if [ ! -f "$CURDIR/embedding/glove_vectors_char.txt" ]; then
+  make
   python $CURDIR/glove/glove_char.py
   sh $CURDIR/glove/glove_char.sh
   mv $CURDIR/glove/glove_vectors_char.txt  $CURDIR/embedding/
@@ -14,6 +15,7 @@ fi
 
 
 if [ ! -f "$CURDIR/embedding/glove_vectors_word.txt" ]; then
+  make
   python $CURDIR/glove/glove_word.py
   sh $CURDIR/glove/glove_word.sh
   mv $CURDIR/glove/glove_vectors_word.txt   $CURDIR/embedding/
