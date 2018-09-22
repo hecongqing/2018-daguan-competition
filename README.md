@@ -37,7 +37,11 @@
   （2） make & sh glove_char.sh (生成字向量)
   
   （3）将生成的词向量(glove_vectors_char.txt)放入embedding 文件夹下
-4、
+   
+4、运行模型：
+CUDA_VISIBLE_DEVICES=0 python main_glove_word2vec.py  --gpu="0" --column_name="word_seg" --word_seq_len=1800 --embedding_vector=200 --num_words=500000 --model_name="bi_gru_model" --batch_size=128 --KFold=10 --classification=19
+
+备注：如果gpu 较小，batch_size 可以设置较小一点
   
 
 
