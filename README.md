@@ -45,5 +45,5 @@ CUDA_VISIBLE_DEVICES=0 python main_glove_word2vec.py  --gpu="0" --column_name="w
   
 
 
-然后 sh run.sh （很简单一个命令）！
+所有的命令都封装在 sh run.sh （很简单一个命令）！
 大概的先介绍到这里，有时间在介绍啦！
