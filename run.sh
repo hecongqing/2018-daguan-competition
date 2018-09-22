@@ -1,5 +1,7 @@
 CURDIR="`pwd`"/"`dirname $0`"
-python $CURDIR/code/read_data.py
+cd  $CURDIR/code
+python read_data.py 
+
 
 if [ ! -d "$CURDIR/embedding/" ]; then
   mkdir "$CURDIR/embedding/"
@@ -7,16 +9,18 @@ fi
 
 
 if [ ! -f "$CURDIR/embedding/glove_vectors_char.txt" ]; then
+  cd $CURDIR/glove
+  python glove_char.py
   make
-  python $CURDIR/glove/glove_char.py
   sh $CURDIR/glove/glove_char.sh
   mv $CURDIR/glove/glove_vectors_char.txt  $CURDIR/embedding/
 fi
 
 
 if [ ! -f "$CURDIR/embedding/glove_vectors_word.txt" ]; then
+  cd $CURDIR/glove
+  python glove_word.py
   make
-  python $CURDIR/glove/glove_word.py
   sh $CURDIR/glove/glove_word.sh
   mv $CURDIR/glove/glove_vectors_word.txt   $CURDIR/embedding/
 fi
