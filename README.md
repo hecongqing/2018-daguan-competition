@@ -16,15 +16,25 @@
 
 模型运行：
 1、将原始数据集input到data文件夹
+
 2、运行 python read_data.py,从而将原始数据的csv格式转化为feather格式（因为feather格式读取数据较快）
+
 3、由于应用到glove算法生成词向量和字向量，且没有python接口，我们使用斯坦福大学开源的C语言版本的glove库。
+
    生成词向量
+   
   （1）python glove_word.py (生成glove所需要的格式的词向量)
+  
   （2） make & sh glove_word.sh (生成词向量)
+  
   （3）将生成的词向量(glove_vectors_word.txt)放入embedding 文件夹下
+  
   生成字向量
+  
   （1）python glove_char.py (生成glove所需要的格式的字向量)
+  
   （2） make & sh glove_char.sh (生成字向量)
+  
   （3）将生成的词向量(glove_vectors_char.txt)放入embedding 文件夹下
 4、
   
