@@ -26,8 +26,8 @@ if [ ! -f "$CURDIR/embedding/glove_vectors_word.txt" ]; then
 fi
 
 
+cd $CURDIR/code/
 
-
-CUDA_VISIBLE_DEVICES=0 python $CURDIR/code/main_glove_word2vec.py  --gpu="0" --column_name="word_seg" --word_seq_len=1800 --embedding_vector=200 --num_words=500000 --model_name="bi_gru_model" --batch_size=128 --KFold=10 --classification=19
+CUDA_VISIBLE_DEVICES=0 python main_glove_word2vec.py  --gpu="0" --column_name="word_seg" --word_seq_len=1800 --embedding_vector=200 --num_words=500000 --model_name="bi_gru_model" --batch_size=128 --KFold=10 --classification=19
 
 
