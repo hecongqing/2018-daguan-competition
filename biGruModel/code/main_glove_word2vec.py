@@ -1,4 +1,5 @@
 # coding: utf-8
+import tensorflow as tf
 import feather
 import os
 import re
@@ -11,7 +12,6 @@ import gensim
 from gensim.models import Word2Vec
 from gensim.models.word2vec import LineSentence
 from scipy import stats
-import tensorflow as tf
 import keras
 from keras.layers import *
 from keras.models import *

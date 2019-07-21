@@ -20,6 +20,18 @@ http://www.dcjingsai.com/common/cmpt/%E2%80%9C%E8%BE%BE%E8%A7%82%E6%9D%AF%E2%80%
 
 对于模型的话，我开源了一个双层的bi_GRU模型,这个模型很简单，就没啥好说的了，大家看看就好，希望大家可以取得更好的成绩！
 
+
+### 运行环境
+
+tensorflow-gpu>=1.10.0
+
+keras==2.16.0
+
+gensim==3.6.0
+
+scikit-learn==0.20.2 
+
+
 ### 模型运行：
 
 1、将原始数据集input到data文件夹
