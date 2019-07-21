@@ -33,11 +33,6 @@ gensim==3.6.0
 scikit-learn==0.20.2 
 
 
-### 运行环境：
-1、tensorflow-gpu>=1.10.0
-2、keras==2.16.0
->>>>>>> b5f260cd00742963f97086cdf6b1bbb645924365
-
 ### 模型运行：
 
 1、将原始数据集input到data文件夹
