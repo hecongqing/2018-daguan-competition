@@ -64,7 +64,15 @@ scikit-learn==0.20.2
    
 4、运行模型：
 
+biGruModel:
+
 CUDA_VISIBLE_DEVICES=0 python main_glove_word2vec.py  --gpu="0" --column_name="word_seg" --word_seq_len=1800 --embedding_vector=200 --num_words=500000 --model_name="bi_gru_model" --batch_size=128 --KFold=10 --classification=19
+
+rnnCapsuleModel:
+
+CUDA_VISIBLE_DEVICES=0 python main.py  --gpu="0" --column_name="word_seg" --word_seq_len=1800 --embedding_vector=200 --num_words=500000 --model_name="Gru_Capsule_Model" --batch_size=128 --KFold=10 --classification=19
+
+
 
 备注：如果gpu 较小，batch_size 可以设置较小一点
   
