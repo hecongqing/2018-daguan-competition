@@ -86,3 +86,6 @@ AI算法之心是一个介绍python、pyspark、机器学习、自然语言处�
 ![微信公众号](https://github.com/hecongqing/TextClassification/blob/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190122210742.jpg)
 
 
+![微信公众号]<img src="https://github.com/hecongqing/TextClassification/blob/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190122210742.jpg" width="50%" height="50%">
+
+
