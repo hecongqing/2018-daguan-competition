@@ -83,9 +83,8 @@ CUDA_VISIBLE_DEVICES=0 python main.py  --gpu="0" --column_name="word_seg" --word
 
 AI算法之心是一个介绍python、pyspark、机器学习、自然语言处理、深度学习、算法竞赛的平台。不管你是刚入门的小白，还是资深的算法大佬，欢迎扫一扫下方的二维码与我们在AI的领域中一起学习成长！
 
-![微信公众号](https://github.com/hecongqing/TextClassification/blob/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190122210742.jpg)
 
 
-![微信公众号]<img src="https://github.com/hecongqing/TextClassification/blob/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190122210742.jpg" width="50%" height="50%">
+<img src="https://github.com/hecongqing/TextClassification/blob/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190122210742.jpg" width="50%" height="50%">
 
 
