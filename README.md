@@ -24,13 +24,13 @@ http://www.dcjingsai.com/common/cmpt/%E2%80%9C%E8%BE%BE%E8%A7%82%E6%9D%AF%E2%80%
 
 ### 运行环境
 
-tensorflow-gpu>=1.10.0
+- tensorflow-gpu>=1.10.0
 
-keras==2.16.0
+- keras==2.16.0
 
-gensim==3.6.0
+- gensim==3.6.0
 
-scikit-learn==0.20.2 
+- scikit-learn==0.20.2 
 
 
 ### 模型运行：
@@ -50,12 +50,19 @@ scikit-learn==0.20.2
   （3）将生成的词向量(glove_vectors_word.txt)放入embedding 文件夹下
   
    生成字向量
-  
+     
   （1）python glove_char.py (生成glove所需要的格式的字向量)
   
   （2） make & sh glove_char.sh (生成字向量)
   
   （3）将生成的词向量(glove_vectors_char.txt)放入embedding 文件夹下
+  
+  ``` shell
+  python glove_char.py
+  make & sh glove_char.sh
+  cp glove_vectors_char.txt
+
+  ```
    
 4、运行模型：
 
