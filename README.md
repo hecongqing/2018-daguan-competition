@@ -14,7 +14,8 @@ http://www.dcjingsai.com/common/cmpt/%E2%80%9C%E8%BE%BE%E8%A7%82%E6%9D%AF%E2%80%
 
 ### 数据集
 https://pan.baidu.com/s/13IMDPMz0rf8kM1JAea53uQ
-passwd: y6m4
+
+password: y6m4
 
 ### 解决方案：
 
