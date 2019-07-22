@@ -12,6 +12,10 @@ http://www.dcjingsai.com/common/cmpt/%E2%80%9C%E8%BE%BE%E8%A7%82%E6%9D%AF%E2%80%
 
 达观数据提供了一批长文本数据和分类信息，结合当下最先进的NLP和人工智能技术，深入分析文本内在结构和语义信息，构建文本分类模型，实现精准分类。
 
+### 数据集
+https://pan.baidu.com/s/13IMDPMz0rf8kM1JAea53uQ
+passwd: y6m4
+
 ### 解决方案：
 
 由于部分代码暂时有用，现在只公开一个单模型：B榜单模型分数可达到0.798.
